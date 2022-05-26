@@ -20,7 +20,7 @@ In order to solve these issues one needs to identify from which library does the
 
 Let us see the first error I got: 
 
-![Error 1](/assets/screenshots/mathematica-error-1.png)
+![Error 1](/blog/assets/screenshots/mathematica-error-1.png)
 
 This error is related to the freetype library. 
 
@@ -35,7 +35,7 @@ mv libfreetype.so.6 libfreetype.so.6.old
 
 Let us see the second error I got:
 
-![Error 2](/assets/screenshots/mathematica-error-2.png)
+![Error 2](/blog/assets/screenshots/mathematica-error-2.png)
 
 This error is explicitly due to the zlib library, thus force the Mathematica to use the system version of the zlib:
 
@@ -48,7 +48,7 @@ mv libz.so.1 libz.so.1.old
 
 Let us see the third error I got:
 
-![Error 3](/assets/screenshots/mathematica-error-3.png)
+![Error 3](/blog/assets/screenshots/mathematica-error-3.png)
 
 This last error was not in Archlinux wiki. From which library is this undefined symbol? If we search in google for this "hb_ot_tags_from_script_and_language", then a git repository of HarfBuzz is found. Thus let us force Mathematica to use the system version of the harfbuzz library: 
 
