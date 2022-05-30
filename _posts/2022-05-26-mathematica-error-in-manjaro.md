@@ -3,12 +3,12 @@ layout: post
 title: "Solving the errors to open Mathematica 11.3 in Manjaro"
 categories: Linux
 tags: [en-us, linux, wolfram-mathematica]
-published: true
+toc: true
 ---
 
-I have changed from KDE Neon to Manjaro KDE Plasma in the middle of the last week. I had no problems by installing Wolfram Mathematica 11.3, however this one did not open properly. So I decided open it by terminal and found a couple of errors in sequence. All of them are reported in the Mathematica post from the [Archlinux Wiki](https://wiki.archlinux.org/title/Mathematica). The last error solution was my contribution to community.
+I have changed from KDE Neon to Manjaro KDE Plasma in the middle of the last week. I had no problems by installing Wolfram Mathematica 11.3, however this one did not open properly. So I decided open it by terminal and found a couple of errors in sequence. All of them are reported in the Mathematica post from the [Archlinux Wiki](https://wiki.archlinux.org/title/Mathematica). The last error solution is my contribution to community.
 
-All of these errors happen because Mathematica includes a number of its own libraries which conflict with system libraries. The Mathematica libraries are in the following directory:
+All of these errors happen because Mathematica includes a number of its own libraries which conflict with the system libraries. The Mathematica libraries are in the following directory:
 
 ```
 cd <INSTALL_DIR>/SystemFiles/Libraries/Linux-x86-64
