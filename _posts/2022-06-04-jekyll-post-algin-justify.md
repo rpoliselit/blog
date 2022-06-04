@@ -16,7 +16,7 @@ Looking for the answer to my problem, I learned the necessary to solve it, and h
 
 ## Text alignment of a paragraph
 
-Html codes can be include in markdown's syntax, and it is also encouraged. Thus not only the alignment such as other characteristics can be changed by using html tags.
+Html codes can be included in markdown's syntax, and it is also encouraged. Thus not only the alignment such as other characteristics can be changed by using html tags.
 
 Here are three ways to do it in the markdown file:
 
@@ -40,7 +40,7 @@ The text alignment options are `right`, `left`, `center` and `justify`.
 
 ## Text alignment of the posts as layout
 
-When a Jekyll is created there is not a layout directory with a post.html file which one determines the layout of all your posts in blog. Let us add it with the following commands in the terminal:
+When a Jekyll site is created there is not a layout directory with a post.html file which one determines the layout of all your posts in blog. Let us add it with the following commands in the terminal:
 
 ```
 mkdir _layouts
