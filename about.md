@@ -4,4 +4,5 @@ title: About
 permalink: /about/
 ---
 
-Here is the space I decided creating to document some interesting subjects from my dayly studing diary.
+Physicist with a background in ultracold atomic systems, Bose-Einstein condensates with vortices, and fermion cooling in three-dimensional optical lattices. Interested in quantum computing, condensed matter physics, ultracold atoms, quantitative finance, economics, gamification, and epistemology.
+
