@@ -2,6 +2,7 @@ title: Daydreams of a physicist
 description: Sometimes I catch myself thinking about physics.
 author: Rafael Poliseli Teles
 avatar: /assets/icon/logo.jpeg
+subscribe: False
 
 plugins:
   - jekyll-seo-tag
