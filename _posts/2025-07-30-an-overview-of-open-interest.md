@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "An Overview of Open Interest"
-categories: Financial Concepts
+categories: Finance
 tags: [en-us, market analysis, derivatives]
 math: true
 toc: true
