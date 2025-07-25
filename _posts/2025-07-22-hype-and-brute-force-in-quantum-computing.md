@@ -31,12 +31,12 @@ This means quantum computers have a geometric advantage, not an explosive (expon
 
 Although Grover’s algorithm cannot break today’s proof-of-work systems, it highlights how quantum computers approach brute-force searching differently than classical computers. Grover’s algorithm is best understood as a faster—but still limited—brute-force method that offers a mathematical shortcut, not a game-changing breakthrough. Quantum computers do not instantly check every possible answer; instead, they use quantum mechanics to increase the chance of finding the right answer more quickly. However, even with this advantage, quantum computers remain far from making classical proof-of-work systems vulnerable or obsolete. With the algorithms we know today, proof-of-work remains secure against quantum attacks for the foreseeable future.
 
-## Estimating how long Grover’s slgorithm would take
+## Estimating how long Grover’s algorithm would take
 
 To estimate the time required for a quantum computer using Grover’s algorithm to brute-force SHA-256, you can use the following formula:
 
 $$
-\text{time} = \frac{\text{number of steps}}{\text{steps per second} \times \text{seconds per year}}
+\text{time} = \frac{\text{number of steps}}{\text{steps per second} \times \text{seconds per year}} .
 $$
 
 Here, "number of steps" refers to the total queries a quantum or classical computer must make, “steps per second” is the hash rate (how many attempts can be tried every second), and “seconds per year” is roughly 31,536,000.
@@ -58,7 +58,7 @@ Developing effective quantum algorithms for classical problems is extremely diff
 
 In practice, hybrid methods—combining quantum and classical resources—are explored to overcome these barriers, but even these often face limitations: not all constraints can be efficiently translated into a quantum form, the measured outcomes don’t always align with what’s needed classically, and any quantum advantage may be marginal or non-existent for real-world instances.
 
-Quantum computers are fundamentally designed to simulate and solve problems that are quantum in nature—those involving the behaviors and interactions of quantum systems. Classical computers cannot efficiently simulate many-particle quantum systems due to exponential resource demands, but quantum systems can naturally encode and process this information. This is why the clearest and strongest applications for quantum computers are found in quantum physics, chemistry, and materials science, where they are expected to model complex molecules, compute ground-state energies, or simulate quantum phenomena far more efficiently than is possible classically
+Quantum computers are fundamentally designed to simulate and solve problems that are quantum in nature—those involving the behaviors and interactions of quantum systems. Classical computers cannot efficiently simulate many-particle quantum systems due to exponential resource demands, but quantum systems can naturally encode and process this information. This is why the clearest and strongest applications for quantum computers are found in quantum physics, chemistry, and materials science, where they are expected to model complex molecules, compute ground-state energies, or simulate quantum phenomena far more efficiently than is possible classically.
 
 Some algorithms are specifically created to solve problems that are inherently quantum or are best approached using quantum principles. Notable examples include:
 
