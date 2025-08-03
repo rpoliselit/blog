@@ -7,7 +7,7 @@ math: true
 toc: true
 ---
 
-The most common contracts traded in the financial markets are [Perpetual Swaps and Future Contracts](https://alphractal.github.io/metrics-docs/futures/) and Option Contracts. These are derivatives based on an underlying asset, such as stocks, commodities, currencies, or cryptocurrencies.
+The most common contracts traded in the financial markets are [perpetual swaps and future contracts](https://alphractal.github.io/metrics-docs/futures/) and option contracts. These are derivatives based on an underlying asset, such as stocks, commodities, currencies, or cryptocurrencies.
 
 The total number of outstanding futures contracts held by market participants is referred to as _open interest_. It represents the total number of contracts that remain unsettled. Importantly, open interest is **not the sum of both** long and short positions, but rather the total number of contracts on **one side** of the market. This is because for every long position, there must be a corresponding short position. Therefore, open interest reflects the number of active positions, regardless of direction.
 
