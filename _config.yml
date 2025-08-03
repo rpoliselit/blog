@@ -41,3 +41,5 @@ exclude:
 #     - https://github.com/ngzhio
 lang: en
 skin: midnight
+
+future: True
