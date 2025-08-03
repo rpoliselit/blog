@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "An Overview of Open Interest"
+title: "An overview of open interest"
 categories: Finance
 tags: [en-us, market analysis, derivatives]
 math: true
@@ -19,7 +19,7 @@ The mechanism governing changes in open interest reflects the way derivative con
 
 These scenarios are detailed in Table 1.
 
-**Table 1: Impact of Trade Types on Net Change in Open Interest**
+**Table 1: Impact of trade types on net change in open interest**
 
 | Buyer                                 | Seller                                | Net Change in Open Interest |
 | ------------------------------------- | ------------------------------------- | --------------------------- |
@@ -32,11 +32,11 @@ Open interest is associated with perpetuals, futures, and options markets, as op
 
 It is standard practice to separate open interest data for options from that of perpetual and futures contracts. In the context of options, open interest serves as an indicator of market liquidity, supports a broader array of trading strategies, and is frequently used to produce risk-weighted or exposure-weighted analyses.
 
-## The relationship between Price and Open Interest
+## The relationship between price and open interest
 
 Open interest movements provide insight into the risk exposure of the underlying asset. An increase or decrease in open interest indicates a change in the number of participants or positions—whether speculative or hedging—which may also reflect variations in leverage. When compared with price movements, open interest can serve as a form of sentiment analysis, as detailed in Table 2.
 
-**Table 2: Market Strength Based on Price and Open Interest Trends**
+**Table 2: Market strength based on price and open interest trends**
 
 | **Price Trend** | **Open Interest Trend** | **Market Interpretation**           |
 | --------------- | ----------------------- | ----------------------------------- |
@@ -53,7 +53,7 @@ If new money flows into the market while prices are in a downtrend, this indicat
 
 However, if prices are declining and open interest is also decreasing, this suggests that market participants—particularly long holders—are being forced to liquidate. Capital is flowing out of the market, and this reinforces a bearish interpretation. In such a context, the market is considered weak due to the simultaneous price and participation decline.
  
-## Open Interest Delta
+## Open interest delta
 
 The term delta typically refers to the difference in a quantity between two time periods. For open interest, it is defined as:
 
@@ -68,7 +68,7 @@ Since open interest represents the total number of active contracts measured at 
 
 While daily deltas are commonly used, this metric can be computed over different time intervals for broader trend analysis, such as 7-day (weekly), 30-day (monthly), 90-day (quarterly), or 180-day (biannually) deltas.
 
-## Volume and Open Interest
+## Volume and open interest
 
 Volume refers to the number of contracts traded, counting both when a contract is opened and when it is closed. It resets to zero at the beginning of each trading day and accumulates throughout the day. In contrast, open interest is updated daily and reflects the total number of outstanding contracts that remain open.
 
@@ -91,7 +91,7 @@ When analyzing market behavior across days, volume may be zero, low, or high, wh
 
 These scenarios are summarized in Table 3.
 
-**Table 3: Relationship Between Volume and Open Interest**
+**Table 3: Relationship between volume and open interest**
 
 |**Volume**|**Open Interest**|**Interpretation**|
 |---|---|---|
