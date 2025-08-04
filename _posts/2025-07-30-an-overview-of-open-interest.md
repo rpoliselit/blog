@@ -64,7 +64,7 @@ $$
 Since open interest represents the total number of active contracts measured at the end of each trading day, the magnitude of the delta reflects market activity or volatility, while its sign indicates the direction of change:
 
 - positive ($$\Delta \text{IO}>0$$) – open interest is increasing, meaning new contracts are being opened,
-- negative ($$\Delta \text{IO}>0$$) – open interest is decreasing, indicating that existing contracts are being closed or settled.
+- negative ($$\Delta \text{IO}<0$$) – open interest is decreasing, indicating that existing contracts are being closed or settled.
 
 While daily deltas are commonly used, this metric can be computed over different time intervals for broader trend analysis, such as 7-day (weekly), 30-day (monthly), 90-day (quarterly), or 180-day (biannually) deltas.
 
