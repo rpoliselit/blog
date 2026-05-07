@@ -76,6 +76,10 @@ In summary, inventing new quantum algorithms for classical problems is fundament
 
 ---
 
+Also published on [Alphractal](https://app.alphractal.com/research/details?slug=hype-and-brute-force-in-quantum-computing)
+
+---
+
 1. [Playing Pool with Iψ〉: from Bouncing Billiards to Quantum Search](https://arxiv.org/pdf/1912.02207)
 2. [A fast quantum mechanical algorithm for database search](https://doi.org/10.1145/237814.237866)
 3. [Quantum computers can search rapidly by using almost any selective transformations](http://arxiv.org/pdf/0711.4299.pdf)
