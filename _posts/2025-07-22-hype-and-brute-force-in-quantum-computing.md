@@ -2,7 +2,7 @@
 layout: post
 title: "Hype and brute-force in quantum computing"
 categories: Physics
-tags: [en-us, quantum computing, brute-force, proof-of-work, quantum physics]
+tags: [en-us, quantum computing, brute-force, proof-of-work, quantum physics, alphractal]
 math: true
 toc: true
 ---
@@ -76,7 +76,7 @@ In summary, inventing new quantum algorithms for classical problems is fundament
 
 ---
 
-Also published on [Alphractal](https://app.alphractal.com/research/details?slug=hype-and-brute-force-in-quantum-computing)
+Also published on [Alphractal](https://app.alphractal.com/research/details?slug=hype-and-brute-force-in-quantum-computing).
 
 ---
 
