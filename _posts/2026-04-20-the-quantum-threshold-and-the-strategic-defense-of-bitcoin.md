@@ -28,9 +28,9 @@ The primary threat to the digital signature algorithm (Secp256k1) used by Bitcoi
 
 The distinction between the underlying hardware and the functional units is categorized by the following metrics:
 
-- Physical Qubits: 2026 era hardware units, such as superconducting circuits or trapped ions, which remain highly sensitive to environmental interference.
-- Logical Qubits: Error corrected abstractions formed by the collective operation of many physical qubits to ensure computational stability.
-- Coherence Times: The duration for which a physical qubit maintains its quantum state, currently measured in microseconds for superconducting architectures.
+- **Physical Qubits:** 2026 era hardware units, such as superconducting circuits or trapped ions, which remain highly sensitive to environmental interference.
+- **Logical Qubits:** Error corrected abstractions formed by the collective operation of many physical qubits to ensure computational stability.
+- **Coherence Times:** The duration for which a physical qubit maintains its quantum state, currently measured in microseconds for superconducting architectures.
 
 Quantum processors find their most direct application in simulating systems that are themselves quantum mechanical. Physical qubits are sufficient for calculating molecular bonds or material properties because the hardware natively reflects the physics of the problem. Applying this technology to classical mathematics is a more complex task. Classical algorithms possess a logical structure that is fundamentally distinct from the fluid nature of quantum logic. Executing classical math on a quantum machine requires a massive quantity of logical qubits to perform constant error correction.
 
@@ -42,15 +42,15 @@ A Bitcoin Improvement Proposal, commonly referred to as a BIP, serves as the for
 
 The following address categories constitute the primary technical vulnerabilities targeted by the proposal:
 
-- Pay to Public Key (P2PK): Early outputs include the raw public key directly on the blockchain, allowing for the derivation of the private key through Shor’s algorithm.
-- Reused Pay to Public Key Hash (P2PKH): This category includes any address where the public key was revealed during a previous transaction, which removes the security layer provided by the initial cryptographic hash.
-- Pay to Taproot (P2TR): These represent specific scripts or internal keys that have been disclosed to the network through transaction metadata or spend paths.
+- **Pay to Public Key (P2PK):** Early outputs include the raw public key directly on the blockchain, allowing for the derivation of the private key through Shor’s algorithm.
+- **Reused Pay to Public Key Hash (P2PKH):** This category includes any address where the public key was revealed during a previous transaction, which removes the security layer provided by the initial cryptographic hash.
+- **Pay to Taproot (P2TR):** These represent specific scripts or internal keys that have been disclosed to the network through transaction metadata or spend paths.
 
 The transition toward a post-quantum ledger is structured through three distinct phases designed to manage the eventual invalidation of traditional elliptic curve signatures:
 
-- Phase 1 (Transition): The network activates the consensus rules for quantum-resistant address formats while allowing legacy signatures to function normally to facilitate a voluntary migration period.
-- Phase 2 (Restricted): The protocol implements a restriction where legacy addresses are prohibited from receiving new funds and may only execute transactions that move assets to verified quantum-secure outputs.
-- Phase 3 (Frozen): The final phase enacts a consensus rule that rejects all classical elliptic curve signatures, such as ECDSA and Schnorr, effectively securing all un-migrated funds within a cryptographic vault accessible only through advanced recovery methods.
+- **Phase 1 (Transition):** The network activates the consensus rules for quantum-resistant address formats while allowing legacy signatures to function normally to facilitate a voluntary migration period.
+- **Phase 2 (Restricted):** The protocol implements a restriction where legacy addresses are prohibited from receiving new funds and may only execute transactions that move assets to verified quantum-secure outputs.
+- **Phase 3 (Frozen):** The final phase enacts a consensus rule that rejects all classical elliptic curve signatures, such as ECDSA and Schnorr, effectively securing all un-migrated funds within a cryptographic vault accessible only through advanced recovery methods.
 
 #### The Confiscation Paradox
 
